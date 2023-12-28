@@ -1,0 +1,15 @@
+{
+  "name": "auth-proxy",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.14",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
